@@ -5,12 +5,17 @@
 	"engines": {
 		"npm": ">=7.0.0",
 		"node": ">=16.0.0"
+		
 	},
 	"scripts": {
 		"start": "node index.js",
 		"format": "biome format --write .",
 		"precommit": "biome check --write .",
 		"lint": "biome lint --write ."
+                "build": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install && pnpm build",
+                "start": "pnpm start"
+}
+
 	},
 	"author": "InterstellarNetwork",
 	"license": "GPL-3.0-or-later",
