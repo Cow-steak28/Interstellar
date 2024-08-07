@@ -28,5 +28,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3"
-  }
+  },
+  "packageManager": "pnpm@latest"  // Added packageManager field
 }
