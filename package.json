@@ -13,7 +13,7 @@
 		"lint": "biome lint --write .",
                 "build": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install && pnpm build .",
                 "start": "pnpm start ."
-}
+},
 
 	}
 	"author": "InterstellarNetwork",
